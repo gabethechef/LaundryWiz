@@ -18,7 +18,7 @@ def welcome(message):
 
 @bot.message_handler(commands=['laundry'])
 def welcome(message):
-    bot.send_message(message.chat.id, f"The 2-hour now casts suggests, {getnowcast()}")
+    bot.send_message(message.chat.id, f"The 2-hour now casts suggests, {getnowcast()} : Do as you deem fit")
 
 
 bot.polling()
